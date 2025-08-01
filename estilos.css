@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   color: white;
 }
@@ -23,3 +24,50 @@ body {
   }
 }
 
+=======
+main {
+  border: 1px solid black;
+  width: 275px;
+  border-radius: 12px;
+  background: #1F1F1F;
+  padding: 16px;
+}
+
+img{
+  width: 100%;
+  border-radius: 12px;
+}
+
+h1 {
+  color: #fff;
+  font-family: Arial;
+  font-size: 25px;
+  text-align: center; /*Centras txt*/
+}
+
+h2 {
+  color: #88A34A;
+  font-family: Arial;
+  font-size: 15px;
+  text-align: center;
+}
+
+p {
+  color: #fff;
+  font-family: Arial;
+  font-size: 13px;
+  text-align: center;
+}
+
+button{
+  background: #333333;
+  height: 40px;
+  width: 100%;
+  color: #fff;
+  font-family: Arial;
+  font-weight: 600;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: none;
+}
+>>>>>>> 00909f9667141befbd5276f32038f525be2bfb64
