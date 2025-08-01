@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Blog Simple</title>
+ 
+</head>
+<body>
+  <main>
+    <section>
+      <article>
+        <h2>Blog de Jorge Gil</h2>
+        <p>Este es el primer párrafo de mi blog sencillo. ¡Bienvenido!</p>
+      </article>
+      <article>
+        <h2>Mi Portafolio</h2>
+        <p>En esta página estoy probando Responsive </p>
+      </article>
+    </section>
+  </main>
+   <style>
+    body {
+  color: white;
+}
+    @media (width > 700px) {
+      body {
+    background-color: blue;
+  }
+    }
+    @media (width < 700px) {
+      main section {
+        padding: 10px;
+        color: black;
+      }
+
+
+      main section article {
+        margin-bottom: 20px;
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #1a1a1a;
+      }
+    }
+  </style>
+</body>
+</html>
